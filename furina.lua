@@ -92,7 +92,7 @@ local function Unfly()
 	flying = false
 	local hrp = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
 	if hrp and hrp:FindFirstChild("FurinaFly") then
-		hrpp.FurinaFly:Destroy()
+		hrp.FurinaFly:Destroy()
 	end
 end
 
